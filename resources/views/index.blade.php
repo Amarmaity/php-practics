@@ -10,7 +10,7 @@
 
 <div class="container mt-5">
     <h2>Enter your Details</h2>
-    <form method='post'  action="{{ route('insert') }}">
+    <form method='post'  action="{{ route('insert') }}">   <!--         Using this code we input the data into the server -->
     @csrf
 
         <div class="form-group">
